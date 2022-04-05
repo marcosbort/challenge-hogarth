@@ -2,77 +2,77 @@
 	Hero
 \-----------------------------------------*/
 .hero-duo {
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
 }
 
 .hero-unit-space-exploration,
 .hero-unit-moon-exploration {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-unit-space-exploration {
-	background-image:url(/images/final-frontier_large.jpg);
+  background-image: url(/images/final-frontier_large.jpg);
 }
 
 .hero-unit-moon-exploration {
-	background-image:url(/images/luna_large.jpg);
+  background-image: url(/images/luna_large.jpg);
 }
 
 .hero-unit-space-exploration a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 @media (max-width: 490px) {
-	.hero-duo {
-		flex-direction: column;
-	}
+  .hero-duo {
+    flex-direction: column;
+  }
 
-	.hero-unit-space-exploration,
-	.hero-unit-moon-exploration {
-	height: 50vh;
-	}
+  .hero-unit-space-exploration,
+  .hero-unit-moon-exploration {
+    height: 50vh;
+  }
 }
 
 /*-----------------------------------------\
 	Timeline
 \-----------------------------------------*/
 @media (min-width: 992px) {
-	.small-version {
-	  display: none;
-	}
+  .small-version {
+    display: none;
+  }
 }
-  
+
 @media (max-width: 991px) {
-	.large-version {
-	  display: none;
-	}
+  .large-version {
+    display: none;
+  }
 }
 
 /*-----------------------------------------\
 	Gallery
 \-----------------------------------------*/
 .flex {
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .flex .flex-1 {
-	flex-grow: 1;
+  flex-grow: 1;
 }
 
 .flex .flex-2 {
-	flex-grow: 2;
+  flex-grow: 2;
 }
